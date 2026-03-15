@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "whatsApp",
-    "slug": "whatsApp",
+    "name": "WhatsApp",
+    "slug": "WhatsApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "whatsapp",
+    "icon": "../assets/images/projeto/icon.png",
+    "scheme": "Whatsapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -30,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/projeto/splash_icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",

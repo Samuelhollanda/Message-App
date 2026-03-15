@@ -31,7 +31,7 @@ const app = () => {
        />
       <Footer />
     </View>
-  )
+        )
 }
 
 const styles = StyleSheet.create({
@@ -81,7 +81,8 @@ const styles = StyleSheet.create({
   },
   mainBar: {
     justifyContent: 'space-between',
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop: 25
   },
   icons: {
     fontSize: 20,
