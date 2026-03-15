@@ -1,8 +1,7 @@
 import {StyleSheet, Text, View, FlatList, Image, TextInput} from 'react-native'
 import AntDesign from '@expo/vector-icons/AntDesign';
-import listUser from '@/data/data';
 import Footer from "@/app/components/Footer";
-import FontAwesome from '@expo/vector-icons/FontAwesome';
+import listMessage from "@/data/data";
 
 const app = () => {
   return (
@@ -19,7 +18,7 @@ const app = () => {
       placeholder = 'Pesquise'
     />
       <FlatList
-        data={listUser}
+        data={listMessage}
         renderItem={({ item }) => (
           <View style={styles.chat}>
             <Image source={ item.profile } style={styles.img} />

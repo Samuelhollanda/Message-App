@@ -1,4 +1,13 @@
-const listUser = [
+import {ImageSourcePropType} from "react-native";
+
+interface message {
+  id: number,
+  nome: string,
+  profile: ImageSourcePropType,
+  time: string
+}
+
+const listMessage: message[] = [
   {
     id: 1,
     nome: 'Josias', 
@@ -86,4 +95,4 @@ const listUser = [
   },
 ];
 
-export default listUser
+export default listMessage
