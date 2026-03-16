@@ -1,7 +1,8 @@
-import {View, StyleSheet, Text, ScrollView} from 'react-native';
+import {View, Text} from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import styles from './styles.Footer';
 
 
 const Footer = () =>{
@@ -44,21 +45,3 @@ const Footer = () =>{
 }
 
 export default Footer;
-
-const styles = StyleSheet.create({
-    footer: {
-        backgroundColor: '#102b24',
-        flexDirection: 'row',
-        paddingBottom: 50,
-        paddingTop: 10,
-        alignItems: 'center',
-        justifyContent: 'space-around',
-    },
-    card: {
-        alignItems: 'center',
-    },
-    paragraph: {
-        color: '#b5b5b5',
-        fontSize: 10
-    }
-})
