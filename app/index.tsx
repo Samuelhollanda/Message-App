@@ -1,17 +1,15 @@
-import { View, TextInput } from 'react-native'
+import { View } from 'react-native'
 import Footer from './components/Footer/Footer';
 import MessageList from './components/MessageList/MessageList';
 import Header from './components/Header/Header'
 import styles from './styles.index'
+import SearchBar from "@/app/components/SearchBar/SearchBar";
 
 const app = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <TextInput
-        style={styles.search}
-        placeholder = 'Pesquise'
-      />
+      <SearchBar />
       <MessageList />
       <Footer />
     </View>
